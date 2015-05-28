@@ -1,5 +1,5 @@
-DOCKER_IMAGE_VERSION=2.7.3
-DOCKER_IMAGE_NAME=hypriot/rpi-python
+DOCKER_IMAGE_VERSION=3.4.2
+DOCKER_IMAGE_NAME=maxkueng/rpi-python3
 DOCKER_IMAGE_TAGNAME=$(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_VERSION)
 
 default: build
@@ -15,4 +15,4 @@ test:
 	docker run --rm $(DOCKER_IMAGE_TAGNAME) /bin/echo "Success."
 
 version:
-	docker run --rm $(DOCKER_IMAGE_TAGNAME) python --version
+	docker run --rm $(DOCKER_IMAGE_TAGNAME) python3 --version

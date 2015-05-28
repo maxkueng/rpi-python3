@@ -1,16 +1,15 @@
-# rpi-python
+# rpi-python3
 
-[![dockeri.co](http://dockeri.co/image/hypriot/rpi-python)](https://registry.hub.docker.com/u/hypriot/rpi-python/)
+[![dockeri.co](http://dockeri.co/image/maxkueng/rpi-python3)](https://registry.hub.docker.com/u/maxkueng/rpi-python3/)
 
 Raspberry Pi compatible Docker base image with Python preinstalled.
 
 Run all the commands from within the project root directory.
 
 ### Build Details
-- [Source Project Page](https://github.com/hypriot)
-- [Source Repository](https://github.com/hypriot/rpi-python)
-- [Dockerfile](https://github.com/hypriot/rpi-python/blob/master/Dockerfile)
-- [DockerHub] (https://registry.hub.docker.com/u/hypriot/rpi-python/)
+- [Source Repository](https://github.com/maxkueng/rpi-python3)
+- [Dockerfile](https://github.com/maxkueng/rpi-python3/blob/master/Dockerfile)
+- [DockerHub] (https://registry.hub.docker.com/u/maxkueng/rpi-python3/)
 
 
 #### Build the Docker Image
@@ -35,6 +34,7 @@ make push
 
 The MIT License (MIT)
 
+Copyright (c) 2015 Max Kueng
 Copyright (c) 2015 Hypriot
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
